@@ -4,7 +4,7 @@ A simple, from-scratch implementation of an **LRU (Least Recently Used) Cache**
 in a single C++ file, with an interactive command-line demo.
 
 An LRU cache is a fixed-size cache that automatically discards the item
-that hasn't been used for the longest time when it runs out of room —
+that hasn't been used for the longest time when it runs out of room — 
 the same core idea used in things like browser caches, database query
 caches, and CPU caches.
 
