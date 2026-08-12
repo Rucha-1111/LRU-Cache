@@ -34,15 +34,15 @@ added, the item at the back of the list (least recently used) is evicted.
 Requires a C++17 compiler (g++, clang++, or MSVC).
 
 ```bash
-g++ -std=c++17 -O2 -o lru_cache lru_cache.cpp
+
 ./lru_cache
 ```
 
 On Windows (MinGW):
 
 ```bash
-g++ -std=c++17 -O2 -o lru_cache.exe lru_cache.cpp
-.\lru_cache.exe
+g++ lru.cpp -o lru
+.\lru
 ```
 
 ## Usage
