@@ -35,7 +35,7 @@ Requires a C++17 compiler (g++, clang++, or MSVC).
 
 ```bash
 
-./lru_cache
+./lru
 ```
 
 On Windows (MinGW):
@@ -84,7 +84,7 @@ Notice how `a` gets evicted once the cache (capacity 4) fills up and a
 ## Project structure
 
 ```
-lru_cache.cpp   — the entire implementation + interactive demo
+lru.cpp         — the entire implementation + interactive demo
 README.md       — this file
 ```
 
