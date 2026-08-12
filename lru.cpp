@@ -1,6 +1,6 @@
 // LRU Cache — see README.md for full details.
-// Build: g++ -std=c++17 -O2 -o lru_cache lru_cache.cpp
-// Run:   ./lru_cache
+// Build: g++ lru.cpp -o lru
+// Run:   ./lru
 
 #include <iostream>
 #include <sstream>
